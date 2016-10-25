@@ -31,3 +31,5 @@ exports.Tech = css.Tech.inherit({
         throw Error('Borschik does not support CSSO version ' + csso.version);
     }
 });
+
+exports.File = css.File;

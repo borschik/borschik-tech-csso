@@ -1,0 +1,35 @@
+{
+  "name": "borschik-tech-csso",
+  "version": "0.0.0",
+  "description": "Borschik CSS tech based on CSSO",
+  "license": "MIT",
+  "repository": "borschik/borschik-tech-csso",
+  "author": "Andrew Abramov <mail@blond.im> (github.com/blond)",
+  "keywords": [
+    "borschik",
+    "css",
+    "tech",
+    "CSSO"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "peerDependencies": {
+    "borschik": "^1.0.0",
+    "csso": ">= 1.2.0 < 3.0.0"
+  },
+  "dependencies": {
+    "semver": "5.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.6.0",
+    "eslint-config-pedant": "^0.8.0"
+  },
+  "scripts": {
+    "test": "eslint ."
+  }
+}
